@@ -82,6 +82,9 @@ body {
 .header-link:hover {
   color: #404bbf;
 }
+.header-link:focus {
+  color: #404bbf;
+}
 .header-link {
   font-weight: 700;
   font-size: 16px;
@@ -99,6 +102,9 @@ body {
 .header-mail:hover {
   color: #404bbf;
 }
+.header-mail:focus {
+  color: #404bbf;
+}
 .header-tel {
   font-size: 16px;
   line-height: 1.5;
@@ -107,6 +113,9 @@ body {
   color: var(--third-text-color);
 }
 .header-tel:hover {
+  color: #404bbf;
+}
+.header-tel:focus {
   color: #404bbf;
 }
 
@@ -159,19 +168,11 @@ body {
   padding-top: 103px;
 }
 
-.solution-icons-list {
+/* .solution-icons-list {
   display: flex;
   gap: 24px;
   margin-bottom: 8px;
-}
-.solution-icon-item {
-  background-color: #f4f4fd;
-  width: 264px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+} */
 
 .solution-list {
   display: flex;
@@ -194,6 +195,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--third-text-color);
 }
+.solution-icon-item {
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
 /*-----------------MAIN S-3--------------- */
 .work {
   background-color: var(--first-text-color);
@@ -286,9 +297,15 @@ body {
 .team-icon {
   fill: var(--first-text-color);
 }
+.team-soc-link:hover {
+  background-color: #404bbf;
+}
+.team-soc-link:focus {
+  background-color: #404bbf;
+}
 /*-----------------MAIN S-5--------------- */
 .customers {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   padding-top: 130px;
   padding-bottom: 120px;
 }
@@ -326,6 +343,12 @@ body {
   border-color: #404bbf;
 }
 .customers-link:hover .customers-icon {
+  fill: #404bbf;
+}
+.customers-link:focus {
+  border-color: #404bbf;
+}
+.customers-link:focus .customers-icon {
   fill: #404bbf;
 }
 
@@ -399,6 +422,9 @@ body {
   justify-content: center;
 }
 .social-link:hover {
+  background-color: #31d0aa;
+}
+.social-link:focus {
   background-color: #31d0aa;
 }
 .footer-soc-icon {
